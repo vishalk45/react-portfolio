@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Github, Linkedin } from "lucide-react";
-import resume from "../assets/Vishal_CV.pdf.pdf";
+import resume from "../assets/Vishal_CV.pdf";
 import certificate from "../assets/Vishal-1.pdf"; // <- apna certificate ka path yaha daalo
 
 const Navbar = () => {
