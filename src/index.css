@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@media screen and (max-width: 768px) {
+    #home {
+        padding-top: 140px;
+        padding-bottom: 60px;
+    }
+    #intro{
+        position: absolute;
+        left: 0;
+       padding: 0 25px;
+    }
+    #welcome {
+        margin-top: 9px;
+    }
+    #digital-world {
+        margin-top: 13px;
+        margin-bottom: 5px;
+    }
+    #final-line {
+        font-size: 1.1rem;
+    }
+
+    /* about */
+    #about{
+        /* background-color: green; */
+        margin-top: 200px;
+    }
+
+    /* project */
+
+    #project-sec{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+      #project-sec h2{
+        font-size: 30px;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+
+    #projectgrid{
+        width: 90%;
+    }
+
+    #project-card {
+        height: 400px;
+        width: 100%;
+    }
+
+    #portfolio-img {
+        height: 280px;
+    }
+
+    #project-cont {
+        padding: 0;
+    }
+
+    /* contact */
+    #contactPage {
+        overflow-x: hidden;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    #contact-form {
+        width: 100%;
+        height: 450px;
+        margin-bottom: 170px;
+    }
+    form {
+        padding: 18px;
+    }
+    #contactImg {
+        width: 100%;
+        height: 400px;
+        /* margin-top: 40px; */
+
+    }
+
+}
+
+
+@media screen and (max-width: 1366px) {
+  #about-me {
+    padding-left: 90px;
+
+  }
+
+  /* contact */
+    #contactPage {
+        width: 90%;
+        /* background-color: red; */
+        gap: 55px;
+    }
+
+}
+
+
