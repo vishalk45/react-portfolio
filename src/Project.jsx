@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectCard from './components/ProjectCard';
 import skillnation from './assets/skillnation.png';
-import passwordGen from './assets/password-Gen.png';
+import passwordgen from './assets/password-gen.png';
 import todolist from './assets/todo-list.png';
 
 const Project = () => {
@@ -38,7 +38,7 @@ const Project = () => {
     },
     {
       name: "Password Generator using React",
-      image: passwordGen,
+      image: passwordgen,
       link: "https://password-gen-react-iota.vercel.app/",
     },
     {
