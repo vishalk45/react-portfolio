@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import image from "./assets/img2.jpg"; // Make sure your image path is correct
+// import image from "./assets/img2.jpg"; // Make sure your image path is correct
 
 const About = () => {
   const [activeTab, setActiveTab] = useState("skills");
@@ -26,7 +26,7 @@ const About = () => {
         {/* Left Side - Photo */}
         <div className="w-full md:w-[800px] flex justify-center">
           <img
-            src={image}
+            src="/assets/img2.jpg"
             alt="Vishal Kumar"
             className="rounded-2xl shadow-2xl object-cover w-full max-w-[100%] h-auto md:h-[600px] border-4 border-white"
           />

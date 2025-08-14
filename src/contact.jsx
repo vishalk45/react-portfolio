@@ -1,5 +1,5 @@
 import React from "react";
-import contactimg from "./assets/contact.png";
+// import contactimg from "./public/assets/contact.png";
 
 const Contact = () => {
   return (
@@ -73,7 +73,7 @@ const Contact = () => {
         {/* Right: Image */}
         <div id="contactImg" className="flex justify-center h-[600px] w-[700px] rounded-2xl shadow-lg overflow-hidden">
           <img
-            src={contactimg}
+            src="/assets/contact.png"
             alt="Contact illustration"
             className="rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300"
           />
