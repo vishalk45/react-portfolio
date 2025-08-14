@@ -49,9 +49,9 @@ const Contact = () => {
               className="w-full p-3 border border-gray-200 rounded-lg focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-200"
             />
             <input
-              type="text"
-              name="subject"
-              placeholder="Write a subject"
+              type="phone"
+              name="phone"
+              placeholder="Contact Number"
               className="w-full p-3 border border-gray-200 rounded-lg focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-200"
             />
             <textarea

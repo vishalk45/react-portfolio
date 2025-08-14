@@ -18,7 +18,7 @@ export default function ProjectCard({ name, image, link }) {
       {/* Project Info */}
       <div id="project-cont" className="p-6 flex flex-col items-center">
         <h3 className="text-2xl font-semibold text-gray-800 mb-5">{name}</h3>
-        <a
+        <a id="livebtn"
           href={link}
           target="_blank"
           rel="noopener noreferrer"

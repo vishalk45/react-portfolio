@@ -64,6 +64,15 @@ html {
         padding: 0;
     }
 
+     #project-cont h3 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    #livebtn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
     /* contact */
     #contactPage {
         overflow-x: hidden;
@@ -82,10 +91,8 @@ html {
     #contactImg {
         width: 100%;
         height: 400px;
-        /* margin-top: 40px; */
-
     }
-
+    
 }
 
 
