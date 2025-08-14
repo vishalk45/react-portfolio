@@ -16,7 +16,7 @@ const Project = () => {
     },
     {
       name: "SkillNation - Learning Platform",
-      image: '/assets/skillnation.png',
+      image: "/assets/skill.png",
       link: "https://skillsnation.in/",
     },
     {
@@ -47,7 +47,7 @@ const Project = () => {
     {
       name: "Portfolio Website",
       image: "https://cdn.pixabay.com/photo/2019/03/06/10/51/iphone-x-4038013_640.jpg",
-      link: "https://your-live-project-link.com",
+      link: "https://react-portfolio-vgv8.vercel.app/",
     },
 
   ];
