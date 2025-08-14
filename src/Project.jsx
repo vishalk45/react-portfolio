@@ -1,8 +1,6 @@
 import React from 'react'
 import ProjectCard from './components/ProjectCard';
-import skillnation from './assets/skillnation.png';
-import passwordgen from './assets/password-gen.png';
-import todolist from './assets/todo-list.png';
+
 
 const Project = () => {
       const projects = [
@@ -18,7 +16,7 @@ const Project = () => {
     },
     {
       name: "SkillNation - Learning Platform",
-      image: skillnation,
+      image: '/assets/skillnation.png',
       link: "https://skillsnation.in/",
     },
     {
@@ -38,12 +36,12 @@ const Project = () => {
     },
     {
       name: "Password Generator using React",
-      image: passwordgen,
+      image: "/assets/password-gen.png",
       link: "https://password-gen-react-iota.vercel.app/",
     },
     {
       name: "To-Do List App using React",
-      image: todolist,
+      image: "/assets/todo-list.png",
       link: "https://todo-list-react-js-olive.vercel.app/",
     },
     {
